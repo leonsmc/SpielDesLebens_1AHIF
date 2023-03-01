@@ -1,5 +1,14 @@
 import turtle as t
+import random
+import math
 
+size = int(input("Größe des Spielfeldes: "))
+length = round(math.sqrt(size))
+
+with open("feld.txt", "w") as file:
+        for i in range(length):
+            row = "".join([str(random.randint(0, 1)) for _ in range(length)])
+            file.write(row + "\n")
 t.speed(0)
 t.hideturtle()
 t.penup()
@@ -78,7 +87,3 @@ if __name__ == "__main__":
     main()
 
 print(current_pos)
-
-#test
-#test2
-#test3
