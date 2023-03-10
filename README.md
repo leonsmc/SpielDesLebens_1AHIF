@@ -1,9 +1,6 @@
 # SpielDesLebens_1AHIF
-boa i will mi umbringa man aba mohra>>>
-
 
 Aufgabenstellung:
-
 Implementiere Conways Spiel des Lebens[0] in Python
 Spielfeldgröße dynamisch
 Startzustand wird aus Datei gelesen 0/1
